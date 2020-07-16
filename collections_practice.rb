@@ -40,4 +40,6 @@ def find_a(words)
   a_words
 end
 
+#[1,2,3,4,5,6,7].select { |x| x.between?(3,6) }
+
 
