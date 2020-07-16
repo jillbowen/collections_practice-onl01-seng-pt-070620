@@ -25,10 +25,10 @@ def reverse_array(integers)
 end
 
 def kesha_maker(names)
-  i = 0 
   letters = []
   names.each do |name|
     letters << name.split("")
+    yield(letters [2] = "$")
   end
 end
 
