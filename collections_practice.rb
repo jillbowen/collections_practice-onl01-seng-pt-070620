@@ -20,4 +20,9 @@ def swap_elements(swaps)
   swaps[0], swaps[1], swaps[2] = swaps[0], swaps[2], swaps[1]
 end
 
+def reverse_array(integers)
+  integers.sort |a , b|
+  a.reverse <=> b.reverse
+ end
+end
   
