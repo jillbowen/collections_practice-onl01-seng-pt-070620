@@ -38,8 +38,8 @@ def find_a(words)
   words.find do |letter|
    if letter.start_with?("a") 
     return letter
-    i += 1
     binding.pry
+    i += 1
    end
   end
   a_words
