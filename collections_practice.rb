@@ -33,11 +33,7 @@ def kesha_maker(names)
 end
 
 def find_a(words)
-  a_words = []
-  words.select do |letter|
-   a_words << letter.start_with?("a")
-  end
-  a_words
+  words.select {|word| word.start_with?("a")}
 end
 
 #[1,2,3,4,5,6,7].select { |x| x.between?(3,6) }
