@@ -41,5 +41,10 @@ def sum_array(numbers)
 end
 
 def add_s(singular)
-  singluar
+  singluar.
 end
+
+# def kesha_maker(names)
+#   names.each do |name|
+#     print name.split("")
+#     name[2] = "$"
