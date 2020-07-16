@@ -41,7 +41,7 @@ def sum_array(numbers)
 end
 
 def add_s(singular)
-  singluar.
+  singluar.collect {|plural|
 end
 
 # def kesha_maker(names)
