@@ -41,7 +41,7 @@ def sum_array(numbers)
 end
 
 def add_s(singular)
-  singluar.collect do |plural|
+  singular.collect do |plural|
     puts plural.split(" ")
   end
 end
