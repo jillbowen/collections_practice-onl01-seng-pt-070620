@@ -37,6 +37,7 @@ def find_a(words)
 end
 
 def sum_array(numbers)
-  numbers
+  numbers.inject {|sum,
 end
 
+#(5..10).inject { |sum, n| sum + n } 
