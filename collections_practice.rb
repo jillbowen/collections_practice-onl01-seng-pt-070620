@@ -28,8 +28,8 @@ def kesha_maker(names)
   letters = []
   names.each do |name|
     letters << name.split("")
-  
   end
+  letters[letters.index(2)] = "$"
 end
 
-  
+  #array[array.index(4)] = "Z"
