@@ -37,9 +37,9 @@ def find_a(words)
   a_words = []
   words.find do |letter|
    if letter.start_with?("a") 
+      i += 1
      binding.pry
     return letter
-    i += 1
    end
   end
   a_words
