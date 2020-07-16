@@ -36,6 +36,7 @@ def find_a(words)
     if letter start_with? ("a")
       puts letter
     end
+  end
 end
 
 
