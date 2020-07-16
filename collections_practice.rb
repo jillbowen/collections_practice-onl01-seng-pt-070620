@@ -43,6 +43,6 @@ end
 def add_s(singular)
   singular.each_with_index do |plural|
       return plural.split(" ")
-      plural.push
+      plural.push("s")
   end
 end
