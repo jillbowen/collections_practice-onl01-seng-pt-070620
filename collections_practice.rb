@@ -39,7 +39,7 @@ def find_a(words)
    if letter.start_with?("a") 
       i += 1
      binding.pry
-    return letter
+    a_words << letter
    end
   end
   a_words
