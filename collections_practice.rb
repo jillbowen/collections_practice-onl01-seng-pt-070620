@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(integers)
   integers.sort do |a , b|
     a <=> b 
@@ -32,10 +33,16 @@ def kesha_maker(names)
 end
 
 def find_a(words)
+  i = 0
   a_words = []
-  words.select do |letter|
-    a_words << letter.start_with?("a")
+  words.find do |letter|
+   if letter.start_with?("a") 
+    return letter
+    i += 1
+    binding.pry
+   end
   end
+  a_words
 end
 
 
