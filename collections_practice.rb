@@ -36,6 +36,7 @@ def find_a(words)
   words.select {|word| word.start_with?("a")}
 end
 
-#[1,2,3,4,5,6,7].select { |x| x.between?(3,6) }
-
+def sum_array(numbers)
+  numbers
+end
 
