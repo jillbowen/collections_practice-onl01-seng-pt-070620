@@ -32,7 +32,9 @@ def kesha_maker(names)
 end
 
 def find_a(words)
+  a_words = []
   words.find do |letter|
+    a_words << letter.starts_with? ("a")
   end
 end
 
