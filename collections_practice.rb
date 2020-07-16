@@ -42,6 +42,6 @@ end
 
 def add_s(singular)
   singular.each_with_index do |plural|
-      plural.split(" ")
+      #plural.split(" ")
   end
 end
