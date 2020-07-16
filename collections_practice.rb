@@ -25,8 +25,7 @@ def reverse_array(integers)
 end
 
 def kesha_maker(names)
-  each_name = []
-  each_name << names.split
+  names.split(", ")
 end
 
   
