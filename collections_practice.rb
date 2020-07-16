@@ -35,7 +35,7 @@ end
 def find_a(words)
   a_words = []
   words.select do |letter|
-   a_words << letter.start_with?("a") 
+   a_words << letter.start_with?("a")
   end
   a_words
 end
