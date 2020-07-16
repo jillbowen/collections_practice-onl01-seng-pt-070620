@@ -29,7 +29,6 @@ def kesha_maker(names)
   names.each do |name|
     letters << name.split("")
   end
-  letters[2] = "$"
 end
 
 
