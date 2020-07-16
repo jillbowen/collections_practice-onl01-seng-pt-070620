@@ -33,4 +33,4 @@ def kesha_maker(names)
   letters.join(" , , ")
 end
 
-  #array[array.index(4)] = "Z"
+
