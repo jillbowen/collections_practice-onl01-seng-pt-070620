@@ -34,9 +34,9 @@ end
 
 def find_a(words)
   i = 0 
-  words.delete do |letter|
-   if letter.start_with?(!"a") 
-    i = 0 
+  a_words = []
+  words.select do |letter|
+   a_words << if letter.start_with?("a") 
    end
   end
 end
