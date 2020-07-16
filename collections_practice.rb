@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 def sort_array_asc(integers)
   integers.sort do |a , b|
     a <=> b 
@@ -38,7 +38,7 @@ def find_a(words)
   words.find do |letter|
    i += 1
    if letter.start_with?("a") 
-     binding.pry
+     #binding.pry
     a_words << letter
    end
   end
