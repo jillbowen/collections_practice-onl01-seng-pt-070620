@@ -28,7 +28,7 @@ def kesha_maker(names)
   letters = []
   names.each do |name|
     letters << name.split("")
-    yield()
+    yield(name[2])
   end
 end
 
