@@ -40,6 +40,6 @@ def sum_array(numbers)
   numbers.inject {|sum, n| sum + n}
 end
 
-def add_s
+def add_s(singular)
   
 end
