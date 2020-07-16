@@ -30,7 +30,6 @@ def kesha_maker(names)
     letters << name.split("")
   end
   letters[letters.index(2)] = "$"
-  letters.join(" , , ")
 end
 
 
