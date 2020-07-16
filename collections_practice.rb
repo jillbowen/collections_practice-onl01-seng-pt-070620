@@ -31,4 +31,11 @@ def kesha_maker(names)
   end
 end
 
+def find_a(words)
+  words.find do |letter|
+    if letter start_with? ("a")
+      puts letter
+    end
+end
+
 
