@@ -41,8 +41,13 @@ def sum_array(numbers)
 end
 
 def add_s(singular)
-  singular.each_with_index do |plural|
-      return plural.split(" ")
-      plural.push("s")
+  singular.each_with_index.collect do |plural, index|
+      
   end
 end
+
+# def add_s(input)
+#   input.each_with_index.map do |element, index|
+#     index == 1 ? element : element + "s"
+#   end
+# end
