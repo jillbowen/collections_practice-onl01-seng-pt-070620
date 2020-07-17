@@ -42,7 +42,6 @@ end
 
 def add_s(singular)
   singular.each_with_index.collect do |plural, index|
-    plural + "s" 
     if index != [1]
       plural + "s"
     end
