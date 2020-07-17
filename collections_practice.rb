@@ -47,4 +47,4 @@ def add_s(singular)
   end
 end
 
-{ |x,i| i == 1 || x[-1] == 's' ? x : x + 's' }
+#{ |x,i| i == 1 || x[-1] == 's' ? x : x + 's' }
