@@ -41,8 +41,9 @@ def sum_array(numbers)
 end
 
 def add_s(singular)
+  plurals = []
   singular.each_with_index.collect do |plural, index|
-    return plural + "s"  
+    plurals << plural + "s"  
   end
 end
 
