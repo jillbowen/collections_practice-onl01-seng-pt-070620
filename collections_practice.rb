@@ -42,7 +42,7 @@ end
 
 def add_s(singular)
   singular.each_with_index.collect do |plural, index|
-      
+    return plural + "s"  
   end
 end
 
